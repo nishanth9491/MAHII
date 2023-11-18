@@ -1,0 +1,49 @@
+.navbar{
+    height: 5rem;
+    width: 90vw;
+    max-width: 50rem;
+    margin:0  auto ;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top:0;
+    z-index:3;
+    background-color: rgb(247, 247, 247);
+    opacity:0.8;
+    border-radius: 0rem  0rem 1rem 1rem ;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+       margin: 0;
+    }
+}
+
+.navitems{
+
+    margin: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+    padding-bottom: 1rem;
+    font-size: larger;
+    font-weight: 500;
+
+    color: rgb(28, 28, 27);
+
+}
+.navitems:hover{
+    border-bottom: 5px solid pink;
+}
+
+.navitems.active{
+    border-bottom: 5px solid rgb(249, 249, 249);
+}
+
+
+.profilepic{
+    width: 30px;
+    border-radius: 25px;
+    filter: sepia(0.3);
+}
